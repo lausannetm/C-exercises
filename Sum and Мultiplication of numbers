@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num, sum = 0, product = 1;
+
+    cin >> num;
+
+    sum += num % 10;
+    product *= num % 10;
+    num /= 10;
+
+    sum += num % 10;
+    product *= num % 10;
+    num /= 10;
+
+    sum += num % 10;
+    product *= num % 10;
+    num /= 10;
+
+    sum += num % 10;
+    product *= num % 10;
+
+    cout << sum;
+    cout << " " << product << endl;
+
+    return 0;
+}
