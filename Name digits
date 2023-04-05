@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cin >> a;
+	
+	if (a == 0) cout << "Nula" << endl;
+	if (a == 1) cout << "Edno" << endl;
+	if (a == 2) cout << "Dve" << endl;
+	if (a == 3) cout << "Tri" << endl;
+	if (a == 4) cout << "Chetiri" << endl;
+	if (a == 5) cout << "Pet" << endl;
+	if (a == 6) cout << "Shest" << endl;
+	if (a == 7) cout << "Sedem" << endl;
+	if (a == 8) cout << "Osem" << endl;
+	if (a == 9) cout << "Devet" << endl;
+
+	return 0;
+}
