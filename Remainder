@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cin >> a;
+	
+	int a1 = (a / 10000) % 10;
+	int a2 = (a / 1000) % 10;
+	int a3 = (a / 100) % 10;
+	int a4 = (a / 10) % 10;
+	int a5 = (a / 1) % 10;
+
+	int br = 0;
+	if (a1 % 2 != 0) br++;
+	if (a2 % 2 != 0) br++;
+	if (a3 % 2 != 0) br++;
+	if (a4 % 2 != 0) br++;
+	if (a5 % 2 != 0) br++;
+
+	cout << br << endl;
+
+	return 0;
+}
