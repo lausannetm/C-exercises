@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cin >> a;
+	
+	int a1 = (a / 100) % 10;
+	int a2 = (a / 10) % 10;
+	int a3 = (a / 1) % 10;
+
+	int b = a1 * a2 * a3;
+
+	if ((b / 100) % 10 > 0) cout << "Yes " << b << endl;
+	else cout << "No\n";
+
+	return 0;
+}
